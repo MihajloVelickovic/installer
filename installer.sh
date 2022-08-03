@@ -6,7 +6,7 @@ git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
 cd ..
-yay -S --noconfirm picom-ibhagwan-git lightdm-webkit2-greeter lightdm-webkit2-theme-reactive betterlockscreen
+yay -S --noconfirm picom-ibhagwan-git lightdm-webkit2-greeter lightdm-webkit2-theme-reactive betterlockscreen nerd-fonts-complete noto-fonts-cjk ttf-ms-win11-auto
 cd ~/.config
 git clone https://github.com/MihajloVelickovic/dotFiles 
 cd dotFiles
