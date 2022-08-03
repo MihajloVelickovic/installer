@@ -1,4 +1,5 @@
 #!/bin/bash
+rm .gitattributes
 sudo pacman -S --noconfirm ranger pulseaudio alsa-utils pacman-contrib rofi nitrogen dunst zsh sxhkd bspwm polybar curl lightdm xf86-video-qxl xorg xorg-xinit flameshot xfce4-terminal firefox
 cd Downloads
 git clone https://aur.archlinux.org/yay.git
@@ -15,12 +16,14 @@ mv picom ..
 mv polybar ..
 mv dunst ..
 mv rofi ..
+mv xfce4 ..
 rm .gitattributes
 mv .xinitrc ~
 mv .zshrc ~
 sudo mv lightdm.conf /etc/lightdm/
 sudo mv lightdm-webkit2-greeter.conf /etc/lightdm
 cd ..
+rm -rf dotFiles
 ln -sf .xinitrc .xsession
 cd ~
 paccache -r
