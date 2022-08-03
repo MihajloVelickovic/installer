@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo pacman -S --noconfirm rofi nitrogen dunst zsh sxhkd bspwm polybar curl lightdm xf86-video-qxl xorg xorg-xinit flameshot xfce4-terminal firefox
+sudo pacman -S --noconfirm ranger rofi nitrogen dunst zsh sxhkd bspwm polybar curl lightdm xf86-video-qxl xorg xorg-xinit flameshot xfce4-terminal firefox
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ./installer.sh
 cd Downloads
