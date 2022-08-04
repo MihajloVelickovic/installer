@@ -4,7 +4,7 @@ sudo pacman -S --noconfirm ranger pulseaudio alsa-utils pacman-contrib rofi nitr
 cd Downloads
 git clone https://aur.archlinux.org/yay.git
 cd yay
-makepkg -si
+makepkg -si --noconfirm
 cd ..
 yay -S --noconfirm picom-ibhagwan-git lightdm-webkit2-greeter lightdm-webkit2-theme-reactive betterlockscreen nerd-fonts-complete noto-fonts-cjk ttf-ms-win11-auto
 cd ~/.config
@@ -22,6 +22,7 @@ mv .xinitrc ~
 mv .zshrc ~
 sudo mv lightdm.conf /etc/lightdm/
 sudo mv lightdm-webkit2-greeter.conf /etc/lightdm
+sudo systemctl enable lightdm
 cd ..
 rm -rf dotFiles
 ln -sf .xinitrc .xsession
