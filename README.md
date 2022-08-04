@@ -1,3 +1,3 @@
 # installer
-basic bspwm installer for arch
-also installs some other things
+Basic bspwm installer for arch.
+Also installs some other things.
