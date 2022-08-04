@@ -1,7 +1,7 @@
 #!/bin/bash
 rm .gitattributes
 cd ~
-sudo pacman -S --noconfirm ranger pulseaudio alsa-utils pacman-contrib rofi nitrogen dunst zsh sxhkd bspwm polybar curl lightdm xf86-video-qxl xorg xorg-xinit flameshot xfce4-terminal firefox
+sudo pacman -S --noconfirm neovim ranger pulseaudio alsa-utils pacman-contrib rofi nitrogen dunst zsh sxhkd bspwm polybar curl lightdm xf86-video-qxl xorg xorg-xinit flameshot xfce4-terminal firefox
 cd Downloads
 git clone https://aur.archlinux.org/yay.git
 cd yay
