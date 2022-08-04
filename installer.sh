@@ -1,13 +1,13 @@
 #!/bin/bash
 rm .gitattributes
 cd ~
-sudo pacman -S --noconfirm ranger pulseaudio alsa-utils spotify discord pacman-contrib rofi nitrogen dunst zsh sxhkd bspwm polybar curl lightdm xf86-video-qxl xorg xorg-xinit flameshot xfce4-terminal firefox
+sudo pacman -S --noconfirm ranger pulseaudio alsa-utils pacman-contrib rofi nitrogen dunst zsh sxhkd bspwm polybar curl lightdm xf86-video-qxl xorg xorg-xinit flameshot xfce4-terminal firefox
 cd Downloads
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si --noconfirm
 cd ..
-yay -S --noconfirm picom-ibhagwan-git spotify-adblock lightdm-webkit2-greeter lightdm-webkit2-theme-reactive betterlockscreen nerd-fonts-complete noto-fonts-cjk ttf-ms-win11-auto
+yay -S --noconfirm picom-ibhagwan-git lightdm-webkit2-greeter lightdm-webkit2-theme-reactive betterlockscreen nerd-fonts-complete noto-fonts-cjk ttf-ms-win11-auto
 cd ~/.config
 git clone https://github.com/MihajloVelickovic/dotFiles 
 cd dotFiles
